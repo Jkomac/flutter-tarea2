@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  Person persona = Person();
+  Person persona = Person.fullParametros(nombre: "", apellidos: "", email: "", password: "", fechaNacimiento: "");
 
   @override
   Widget build(BuildContext context) {
